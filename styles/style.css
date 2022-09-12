@@ -1,3 +1,19 @@
 header {
   background: lightblue;
+  display: flex;
+  justify-content: center;
+  color: rgb(72, 72, 124);
+}
+header button {
+  background: rgb(147, 52, 148);
+}
+header button::after {
+  content: "helllo";
+}
+header button::after:hover {
+  background: red;
+}
+
+.contact button {
+  background: rgb(147, 52, 148);
 }/*# sourceMappingURL=style.css.map */
