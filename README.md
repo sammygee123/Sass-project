@@ -1,2 +1,1 @@
-# Sass-project
-# Sass-project
+# My first Sass project
