@@ -8,12 +8,14 @@
 }
 
 
-header { 
+header {
     @include flexCenter(column, red);
     height: 100vh;
     color: $textColor;
+
     button {
         background: $primaryBtn;
+
         &::after {
             content: "helllo";
         }
