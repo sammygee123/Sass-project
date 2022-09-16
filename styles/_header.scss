@@ -16,6 +16,10 @@ header {
     button {
         background: $primaryBtn;
 
+        &:hover {
+            color: green
+        }
+
         &::after {
             content: "helllo";
         }

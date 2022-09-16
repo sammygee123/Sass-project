@@ -1,19 +1,28 @@
 header {
-  background: lightblue;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: red;
+  height: 100vh;
   color: rgb(72, 72, 124);
 }
 header button {
   background: rgb(147, 52, 148);
 }
+header button:hover {
+  color: green;
+}
 header button::after {
   content: "helllo";
 }
-header button::after:hover {
-  background: red;
-}
 
-.contact button {
-  background: rgb(147, 52, 148);
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: blue;
 }/*# sourceMappingURL=style.css.map */
